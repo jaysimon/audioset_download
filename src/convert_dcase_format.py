@@ -41,8 +41,8 @@ def convert(sOriPath, sToPath):
 
 
 def main():
-    fileOri = "../list/fowl_car_negative_samples.csv"
-    fileTo = "../list/fowl_car_negative_samples_converted.csv"
+    fileOri = "../list/balanced_train_segments.csv"
+    fileTo = "../list/balanced_train_segments_converted.csv"
     convert(fileOri, fileTo)
 
 
